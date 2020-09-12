@@ -1,6 +1,7 @@
 # Photo-Albums-RESTful-Microservices
 
-Photo Albums is a RESTful Spring Boot Microservices which runs in Spring Cloud:
+# Photo Albums is a RESTful Spring Boot Microservices which runs in Spring Cloud:
+
 
 Designed and implemented RESTful APIs based on SpringBoot, SpringCloud and SpringData, including discovery, gateway, users, configuration, albums and management services.
 
