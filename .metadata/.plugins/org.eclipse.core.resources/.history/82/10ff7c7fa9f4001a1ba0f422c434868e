@@ -1,0 +1,17 @@
+spring.application.name=PhotoAppAPIConfigServer
+server.port=8012
+spring.profiles.active=git
+spring.cloud.config.server.native.search-locations=file://${user.home}/Documents/dev
+
+spring.cloud.config.server.git.uri=https://github.com/BufanJiang/PhotoAppConfiguration
+spring.cloud.config.server.git.username=BufanJiang
+spring.cloud.config.server.git.password=wbxhh1034247251!
+spring.cloud.config.server.git.clone-on-start=true
+
+
+management.endpoints.web.exposure.include=bus-refresh
+
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest

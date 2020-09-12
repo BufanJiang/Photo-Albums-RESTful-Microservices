@@ -1,0 +1,16 @@
+package com.appsdeveloperblog.photoapp.api.gateway.security;
+
+import org.springframework.core.env.Environment;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
+
+public class AuthorizationFilter extends BasicAuthenticationFilter{
+	
+	Environment environment;
+
+    public AuthorizationFilter(AuthenticationManager authManager, Environment environment) {
+        super(authManager);
+        this.environment = environment;
+    }
+
+}
